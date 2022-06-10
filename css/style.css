@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+}
+
+.active{
+    background-color: rgba(255, 255, 0, 0.558);
+    color: #ffffff;
+    width: 20%;
+}
+
+
+.cabecalho{
+    display: flex;
+    background-image: linear-gradient(to right, gray, black);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.menu>a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.menu> a:hover{
+    background-color: black;
+}
+
+header > h1{
+    text-align: center;
+    color: black;
+}
+
+section{
+    display: flex;
+}
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto 0 auto;
+    max-width: 50rem;
+}
+
+.produtos>div{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 12.5rem;
+    margin: 10px;
+}
+
+.produtos > div > img{
+    max-width: 100%;
+    display: block;
+}
+
+.container1{
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    min-width: 180px;
+    font-size: 16px;
+    border-radius: 0;
+    border: 10px;
+    background-color: aqua;
+}
+
+button{
+    background-color: transparent;
+    color: black;
+    border-color: black;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: all 2s ease-out;
+}
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+
+button:hover{
+    background-color: aquamarine;
+    color: #000;
+}
+
+#produtos-h2{
+    
+    height: 5vh;
+    text-align: center;
+    background-image:linear-gradient(to right, white,aqua) ;   
+}
+
+.container1 > p {
+    text-align: center;
+    font-size: 12pt;
+}
+
+
+footer{
+    text-align: center;
+    margin: 80vh;
+    background-image: linear-gradient(to right, gray, gray );
+}
